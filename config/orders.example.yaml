@@ -1,0 +1,15 @@
+transport:
+  host: 0.0.0.0
+  port: 55055
+  timeout: 4s
+database:
+  host: 0.0.0.0
+  port: 5432
+  user: postgres
+  password: dummy_p@assw0rd
+  dbname: ordersdb
+  sslmode: disable
+logging:
+  level: 0
+  format: pretty
+  output: stdout
